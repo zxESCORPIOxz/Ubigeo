@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Redirigir a los archivos PHP de la API según la URL
+RewriteRule ^api/departamentos$ api/departamentos.php [L]
+RewriteRule ^api/provincias$ api/provincias.php [L]
+RewriteRule ^api/distritos$ api/distritos.php [L]
+RewriteRule ^api/ubicacion$ api/ubicacion.php [L]
